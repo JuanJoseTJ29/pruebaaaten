@@ -1,0 +1,48 @@
+{
+  "name": "avisaya-backend-acto-delictivo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=DESARROLLO nodemon index.js",
+    "start": "cross-env NODE_ENV=PRODUCCION node index.js",
+    "test": "cross-env NODE_ENV=TEST mocha ./app/test --exit",
+    "coverage": "cross-env NODE_ENV=COVERAGE c8 mocha ./app/test/*.js --exit",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcosValdez/AvisaYa-Backend-Acto-Delictivo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcosValdez/AvisaYa-Backend-Acto-Delictivo/issues"
+  },
+  "homepage": "https://github.com/MarcosValdez/AvisaYa-Backend-Acto-Delictivo#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "redis": "^4.5.1",
+    "redis-om": "^0.2.0"
+  },
+  "devDependencies": {
+    "c8": "^7.12.0",
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "eslint": "^8.29.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.6.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "mocha": "^10.1.0",
+    "nodemon": "^2.0.20",
+    "sonarqube-scanner": "^2.9.1"
+  }
+}
