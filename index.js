@@ -1,6 +1,6 @@
 
 /* HOLAAAAAAAAAAAAAAAAAAAAAAAA */
-/* ALOJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
+/* adiossssssssssssssssssssssss */
 /* eslint-disable no-console */
 import 'dotenv/config'
 import express from 'express'
